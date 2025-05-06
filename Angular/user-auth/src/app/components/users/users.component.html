@@ -1,0 +1,7 @@
+<!-- user-list.component.html -->
+<h3>Users List</h3>
+<ul>
+  <li *ngFor="let user of users; let i = index">
+    {{ i + 1 }}. {{ user.email }}
+  </li>
+</ul>
